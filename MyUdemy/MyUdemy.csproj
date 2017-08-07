@@ -42,6 +42,18 @@
     <EmbeddedResource Include="GridExercise2Page.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="AbsolutePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AbsoluteLayoutExercise1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AbsoluteLayoutExercise2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListViewLecture.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -63,6 +75,20 @@
     <Compile Include="GridExercise2Page.xaml.cs">
       <DependentUpon>GridExercise2Page.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AbsolutePage.xaml.cs">
+      <DependentUpon>AbsolutePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AbsoluteLayoutExercise1.xaml.cs">
+      <DependentUpon>AbsoluteLayoutExercise1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AbsoluteLayoutExercise2.xaml.cs">
+      <DependentUpon>AbsoluteLayoutExercise2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewLecture.xaml.cs">
+      <DependentUpon>ListViewLecture.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeGroup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

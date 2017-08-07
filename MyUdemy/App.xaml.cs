@@ -8,7 +8,7 @@ namespace MyUdemy
         {
             InitializeComponent();
 
-            MainPage = new GridExercise2Page();
+            MainPage = new ListViewLecture();
         }
 
         protected override void OnStart()
