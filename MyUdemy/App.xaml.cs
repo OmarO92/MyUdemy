@@ -8,7 +8,7 @@ namespace MyUdemy
         {
             InitializeComponent();
 
-            MainPage = new ListViewLecture();
+            MainPage = new ContextActions();
         }
 
         protected override void OnStart()

@@ -54,6 +54,15 @@
     <EmbeddedResource Include="ListViewLecture.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="RelativeLayoutPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelativeLayoutExercise1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContextActions.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -89,6 +98,15 @@
     </Compile>
     <Compile Include="Employee.cs" />
     <Compile Include="EmployeeGroup.cs" />
+    <Compile Include="RelativeLayoutPage.xaml.cs">
+      <DependentUpon>RelativeLayoutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RelativeLayoutExercise1.xaml.cs">
+      <DependentUpon>RelativeLayoutExercise1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContextActions.xaml.cs">
+      <DependentUpon>ContextActions.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
