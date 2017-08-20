@@ -8,7 +8,7 @@ namespace MyUdemy
         {
             InitializeComponent();
 
-            MainPage = new ContextActions();
+            MainPage = new AirBnBSearchExercise();
         }
 
         protected override void OnStart()
